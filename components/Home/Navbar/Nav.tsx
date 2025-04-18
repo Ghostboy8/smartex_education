@@ -46,7 +46,7 @@ const Nav = ({ openNav }: Props) => {
   {navLinks.map((link) => {
     return (
       <Link href={link.url} key={link.id}>
-        <p className={`nav_link font-semibold transition-colors duration-300 ${navBg ? 'text-black' : 'text-white'} `}>
+        <p className='nav_link font-semibold transition-colors duration-300'>
           {link.label}
         </p>
       </Link>
