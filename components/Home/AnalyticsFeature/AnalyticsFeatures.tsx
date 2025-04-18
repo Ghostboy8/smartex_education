@@ -9,7 +9,7 @@ const AnalyticsFeatures = () => {
 
           {/* En-tête de section */}
           <h1 className='text-base font-semibold text-red-700 uppercase tracking-wider'>
-            Gestion intelligente pour des établissements de formation
+            Gestion digitalisée et moderne des établissements de formation.
           </h1>
 
           <h2 className='mt-4 text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-tight'>
