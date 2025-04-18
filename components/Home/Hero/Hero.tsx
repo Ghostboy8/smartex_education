@@ -43,7 +43,7 @@ const Hero = () => {
     alt='hero'
     width={700}
     height={700}
-    
+    className='animate-float'
   />
 </div>
 
