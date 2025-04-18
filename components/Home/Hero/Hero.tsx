@@ -15,7 +15,7 @@ const Hero = () => {
               data-aos="fade-up"
               className='text-white text-3xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem] lg:leading-[3.5rem]'
             >
-              Révolutionnez la gestion de votre établissement avec <span className='text-red-500'>SMARTEX Education</span>
+              Révolutionnez la gestion de votre établissement de formation avec <span className='text-red-500'>SMARTEX Education</span>
             </h1>
 
             <p className='text-white text-sm md:text-base mb-6' data-aos="fade-up" data-aos-delay="100">
