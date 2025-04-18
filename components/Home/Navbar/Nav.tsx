@@ -58,13 +58,13 @@ const Nav = ({ openNav }: Props) => {
         {/* Bouton d'action et menu mobile */}
         <div className='flex items-center space-x-4'>
         <a
-  href="https://smartex-expertises.com/acceuil"
+  href="#"
   target="_blank"
   rel="noopener noreferrer"
-  className="md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-red-700
-             hover:bg-red-900 transition-all duration-200 rounded-full inline-block"
+  className="md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-blue-700
+             hover:bg-blue-900 transition-all duration-200 rounded-full inline-block"
 >
-  SMARTEX EXPERTISES
+  SMARTEX EDUCATION 
 </a>
 
 
