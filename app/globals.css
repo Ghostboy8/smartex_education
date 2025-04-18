@@ -18,8 +18,8 @@ html {
 /* Fond animé plus riche et dynamique */
 .hero-bg {
     position: relative;
-    background: linear-gradient(135deg, #ffffff, #fefefe, #fdfdfd, #fcfcfc, #fbfbfb);
-
+    
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 
 
     background-size: 800% 800%;
