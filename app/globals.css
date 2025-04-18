@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+@layer utilities{
+    .nav_link{
+        @apply relative text-base font-medium w-fit block after:block after:content-[''] after:absolute
+        after:h-[3px] after:bg-red-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
+        after:duration-300 after:origin-right;
+    }
+}
+
+/* Fond animé plus riche et dynamique */
+.hero-bg {
+    position: relative;
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9, #3b82f6, #4f46e5);
+    background-size: 800% 800%;
+    animation: waveMotion 20s ease-in-out infinite;
+    color: white;
+    overflow: hidden;
+  }
+  
+  /* Animation du fond en plusieurs directions */
+  @keyframes waveMotion {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 50% 0%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Effet "brillance"/pulsation en fond */
+  .hero-bg::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: pulse 8s ease-in-out infinite;
+    z-index: 0;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.3;
+    }
+  }
+  
+  /* Effet de flottement de l'image */
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+  }
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  /* Glassmorphism effect */
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+  }
+  
+
