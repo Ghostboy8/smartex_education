@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
-import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaMapMarkedAlt, FaPhoneAlt, FaTwitter } from 'react-icons/fa'
+import { FaEnvelope, FaLinkedin, FaMapMarkedAlt, FaPhoneAlt } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
             </Link>
 
             <p className='mt-4 text-sm font-medium leading-[2rem] w-[80%] text-gray-600'>
-              Solution développée par <Link href="https://smartex-expertises.com/acceuil" target="_blank" className="text-blue-600 hover:underline">Smartex Expertises</Link>, spécialisée en ingénierie logicielle, digitalisation et systèmes d'information.
+              Solution développée par <Link href="https://smartex-expertises.com/acceuil" target="_blank" className="text-blue-600 hover:underline">Smartex Expertises</Link>, spécialisée en ingénierie logicielle, digitalisation et systèmes d&apos;information.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const Footer = () => {
             <ul className='mt-4 space-y-4 text-sm font-semibold text-gray-500'>
               <li className='flex items-center'>
                 <FaMapMarkedAlt className='mr-2' />
-                Abidjan, Côte d'Ivoire
+                Abidjan, Côte d&apos;Ivoire
               </li>
               <li className='flex items-center'>
                 <FaPhoneAlt className='mr-2' />

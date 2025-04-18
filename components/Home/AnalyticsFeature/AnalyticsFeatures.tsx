@@ -21,8 +21,8 @@ const AnalyticsFeatures = () => {
             SMARTEX Education est une plateforme de gestion tout-en-un conçue pour les établissements scolaires
             et universitaires. Elle permet une administration efficace des formations, des absences, des plannings,
             des évaluations, des stages, des mémoires et bien plus encore. Son objectif est de faciliter le travail
-            des enseignants, d’informer les parents, d’impliquer les entreprises partenaires et d’améliorer
-            l'expérience des élèves et étudiants.
+            des enseignants, d&apos;informer les parents, d&apos;impliquer les entreprises partenaires et d&apos;améliorer
+            l&apos;expérience des élèves et étudiants.
           </p>
 
           {/* Liste des avantages fonctionnels */}
@@ -64,11 +64,11 @@ const AnalyticsFeatures = () => {
 
           {/* Bouton d’action */}
           <a
-  href="#feature"
-  className="mt-10 inline-block px-8 py-3 bg-blue-700 text-white font-semibold rounded-full hover:bg-blue-900 transition-all duration-200"
->
-  Explorer toutes les fonctionnalités →
-</a>
+            href="#feature"
+            className="mt-10 inline-block px-8 py-3 bg-blue-700 text-white font-semibold rounded-full hover:bg-blue-900 transition-all duration-200"
+          >
+            Explorer toutes les fonctionnalités →
+          </a>
         </div>
       </div>
     </div>

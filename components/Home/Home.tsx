@@ -7,7 +7,6 @@ import Hero from './Hero/Hero'
 import WhyChose from './WhyChose/WhyChose'
 import AnalyticsFeatures from './AnalyticsFeature/AnalyticsFeatures'
 import Feature from './Feature/Feature'
-import Review from './Review/Review'
 import Fonctions from './Fonctions/Fonctions'
 import Offer from './Offer/Offer'
 import Contact from './Contact/Contact';
