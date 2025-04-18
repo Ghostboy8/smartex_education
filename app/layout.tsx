@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     siteName: "SMARTEX Education",
     images: [
       {
-        url: "https://smartex-education.com/images/og-image.jpg",
+        url: "https://smartex-education.vercel.app/images/fav.jpg",
         width: 1200,
         height: 630,
         alt: "Interface SMARTEX Education",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "SMARTEX Education | Plateforme Numérique Éducative",
     description:
       "Gérez efficacement votre établissement scolaire ou universitaire avec SMARTEX Education : une solution innovante et intuitive.",
-    images: ["https://smartex-education.com/images/og-image.jpg"],
+    images: ["https://smartex-education.vercel.app/images/fav.jpg"],
     creator: "@smartexexpertises",
   },
   metadataBase: new URL("https://smartex-education.com"),
