@@ -33,7 +33,7 @@ const Feature = () => {
         <div className='bg-blue-200 pt-20 pb-20'>
             <div className='w-[80%] mx-auto text-center'>
                 <h1 className='mt-6 text-2xl md:text-3xl capitalize font-bold text-center'>
-                    Pour qui est cette solution ?
+                    Les acteurs pris en compte par la solution.
                 </h1>
                 <div className='grid mt-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {features.map((feature, index) => (
