@@ -38,14 +38,15 @@ const Hero = () => {
 
           {/* Illustration */}
           <div data-aos="fade-up" data-aos-delay="300" className='hidden lg:block'>
-            <Image
-              src='/images/hero-smart.png'
-              alt='hero'
-              width={700}
-              height={700}
-              className='animate-float'
-            />
-          </div>
+  <Image
+    src='/images/hero-smart.png'
+    alt='hero'
+    width={700}
+    height={700}
+    className='animate-float shadow-2xl rounded-xl'
+  />
+</div>
+
         </div>
       </div>
     </div>
