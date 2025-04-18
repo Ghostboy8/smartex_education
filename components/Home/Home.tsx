@@ -8,7 +8,6 @@ import WhyChose from './WhyChose/WhyChose'
 import AnalyticsFeatures from './AnalyticsFeature/AnalyticsFeatures'
 import Feature from './Feature/Feature'
 import Fonctions from './Fonctions/Fonctions'
-import Offer from './Offer/Offer'
 import Contact from './Contact/Contact';
 
 const Home = () => {
