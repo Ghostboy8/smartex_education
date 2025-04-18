@@ -18,7 +18,7 @@ html {
 /* Fond animé plus riche et dynamique */
 .hero-bg {
     position: relative;
-    background: linear-gradient(135deg, #1e3a8a, #4f46e5, #ffffff, #000000, #ef4444);
+    
 
     background-size: 800% 800%;
     animation: waveMotion 20s ease-in-out infinite;
